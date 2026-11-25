@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact details, map, friends and contact form.">
+  <meta name="author" content="Abdullah Basharat">
+  <meta name="keywords" content="portfolio, HTML, CSS, Iqra University, CSC 337">
+  <title>Contact | My Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="brand">Abdullah Basharat</p>
+    <nav aria-label="Main navigation">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="media.html">Favourite Media</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact</h1>
+    <section class="card">
+      <h2>My details</h2>
+      <p><strong>Name:</strong> Abdullah Basharat</p>
+      <p><strong>Student ID:</strong> 41469</p>
+      <p><strong>Designation:</strong> BS(CS) Student, 6th Semester</p>
+      <p><strong>Email:</strong> <a href="mailto:41469@iqraisb.edu.pk">41469@iqraisb.edu.pk</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+923175823028">+92 317 5823028</a></p>
+    </section>
+    <section>
+      <h2>Find me here</h2>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=Iqra+University+Islamabad+Campus+H-9&amp;output=embed" title="Google Map of Iqra University Islamabad Campus" loading="lazy"></iframe>
+      </div>
+    </section>
+    <section>
+      <h2>My friends</h2>
+      <table>
+        <caption>Friends names and IDs</caption>
+        <thead>
+          <tr><th>Name</th><th>Student ID</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Friend One</td><td>00000</td></tr>
+          <tr><td>Friend Two</td><td>00001</td></tr>
+          <tr><td>Friend Three</td><td>00002</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="card">
+      <h2>Send a message</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Abdullah Basharat. CSC 337 Web Programming Languages, Iqra University Islamabad Campus (H-9).</p>
+  </footer>
+</body>
+</html>
